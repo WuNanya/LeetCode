@@ -10,7 +10,7 @@
         }
     }
     
-    // 步骤二：若有环，找到入环开始的节点
+    // 
     if (hasCycle) {
         ListNode q = head;
         while (p != q) {
@@ -19,5 +19,5 @@
         }
         return q;
     } else 
-        return null;
+        return null
 }
