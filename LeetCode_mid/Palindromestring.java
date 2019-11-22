@@ -5,6 +5,7 @@ import java.util.Scanner;
     回文字符串即从前读和从后读结果都一样的字符串。
     2.例如有字符串A = aba 字符串B = b;
     那么可以构成的新字符串有baba abba abba abab由此可以看出可以构成两个回文字符串
+    方法二
  */
 public class Main{
     public static void main(String[] args){
