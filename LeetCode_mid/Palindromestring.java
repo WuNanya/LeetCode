@@ -37,6 +37,6 @@ public class Main{
             flag = true;
             sb.delete(i,i+B.length());
             }
-        System.out.println(count);
+
         }
     }
