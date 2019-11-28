@@ -23,7 +23,7 @@ class Solution {
     boolean subtree(TreeNode root){
         if(root == null) return true;
         if(root.val == 1)return false;
-        return (subtree(root.left)&&subtree(root.right));
+        return (subtree(root.left)&&subtree(root.right))
         //当判断root节点为0是需要判断其左右子树是否为0，如果左右子树都为0或不存在则返回true修剪
     }
 }
