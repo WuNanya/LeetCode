@@ -38,6 +38,6 @@ class Solution {
         findPath(array, i+1, j);
         findPath(array, i-1, j);
         findPath(array, i, j-1);
-        findPath(array, i, j+1);
+       
     }
 }
